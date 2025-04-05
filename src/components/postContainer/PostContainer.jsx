@@ -9,7 +9,7 @@ const postContainer = ({ imgurl, date, heading, description, url }) => {
       <div className="postContainer_details">
         <div className="postContainer_details_text">
           <p>
-            <span>DEVELOPMENT</span>
+            <span>Development : </span>
             {date}
           </p>
           <h1>{heading}</h1>

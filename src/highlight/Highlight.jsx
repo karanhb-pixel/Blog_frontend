@@ -9,7 +9,7 @@ const Highlight = () => {
         <div className="highlight_details">
           <div className="highlight_details_text">
             <p>
-              <span>DEVELOPMENT</span> 16 March 2023
+              <span>Development : </span> 16 March 2023
             </p>
             <h1>
               How to make a Game look more attractive with New VR & AI

@@ -48,8 +48,8 @@
   gap: 1rem;
 }
 
-.highlight_details_text span {
-  font-weight: 700;
+.highlight_details_text p span {
+  font-weight: 800;
 }
 
 .highlight_details_text h1 {

@@ -9,9 +9,8 @@
 
 .postContainer_container {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
-  /* position: relative; */
   justify-content: center;
   align-items: center;
   gap: 2rem;
@@ -19,7 +18,8 @@
 
 .postContainer_container img {
   width: 100%;
-  height: 80%;
+  height: auto;
+  max-height: 250px;
   object-fit: cover;
   border-radius: 1rem;
 }
@@ -37,10 +37,13 @@
   align-items: flex-start;
   gap: 1rem;
 }
-.postContainer_details_text span {
-  font-weight: 700;
+.postContainer_details_text p span {
+  font-weight: 800;
 }
 
 .postContainer_details_text h1 {
   font-weight: 700;
+}
+.postContainer_details_text p {
+  text-align: justify;
 }
