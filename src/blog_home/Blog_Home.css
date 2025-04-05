@@ -1,0 +1,45 @@
+.blog_home {
+  background-color: var(--primary-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 5rem;
+  gap: 1rem;
+}
+
+.blog_headerimg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 1rem;
+}
+
+.blog_headerimg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.blog_headerimg img:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+}
+
+.blog_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #ffffff;
+  gap: 2rem;
+}
+
+.blog_header h1 {
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+.blog_header h3 {
+  font-weight: 400;
+}
