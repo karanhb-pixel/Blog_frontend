@@ -1,0 +1,44 @@
+[
+  {
+    "imgurl": "https://images.unsplash.com/photo-1682685797432-c55553e56c1d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "date": "2024-04-01",
+    "title": "The Impact of Climate Change on Coastal Cities",
+    "details": "This article examines the growing threat of rising sea levels and extreme weather events on coastal populations and infrastructure.",
+    "url": "#"
+  },
+  {
+    "imgurl": "https://images.unsplash.com/photo-1682654593570-c79951149192?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "date": "2024-04-05",
+    "title": "5 Essential Skills for the Modern Data Scientist",
+    "details": "Explore the key technical and soft skills that are crucial for success in the field of data science today.",
+    "url": "#"
+  },
+  {
+    "imgurl": "https://images.unsplash.com/photo-1682558666946-a06f44eb1136?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "date": "2024-04-10",
+    "title": "A Beginner's Guide to Digital Photography",
+    "details": "Learn the fundamentals of photography, including camera settings, composition techniques, and basic editing.",
+    "url": "#"
+  },
+  {
+    "imgurl": "https://images.unsplash.com/photo-1682454228684-2a2990527b18?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "date": "2024-04-12",
+    "title": "The Art of Mindful Meditation",
+    "details": "Discover the benefits of mindfulness and learn how to incorporate meditation into your daily routine for stress reduction and improved focus.",
+    "url": "#"
+  },
+  {
+    "imgurl": "https://images.unsplash.com/photo-1682313674140-56cffc578f8a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "date": "2024-04-18",
+    "title": "Top 10 Destinations for Solo Travelers",
+    "details": "Find inspiration for your next adventure with our list of the best and safest places to travel alone.",
+    "url": "#"
+  },
+  {
+    "imgurl": "https://images.unsplash.com/photo-1681728953023-a0524a0d6a56?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "date": "2024-04-22",
+    "title": "The Complete Guide to Home Brewing",
+    "details": "Learn the step-by-step process of brewing your own beer at home, from choosing your ingredients to bottling the final product.",
+    "url": "#"
+  }
+]

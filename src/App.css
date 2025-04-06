@@ -30,3 +30,11 @@ button:hover {
 a {
   color: #333;
 }
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  min-height: 100vh;
+}
