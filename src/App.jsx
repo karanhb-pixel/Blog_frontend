@@ -5,6 +5,7 @@ import Highlight from "./highlight/Highlight";
 import RecentPosts from "./recentPosts/RecentPosts";
 import PopularPost from "./popularPost/PopularPost";
 import SubscriptionBox from "./subscriptionBox/SubscriptionBox";
+import Footer from "./footer/Footer";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
         <RecentPosts />
         <PopularPost />
         <SubscriptionBox />
+        <Footer />
       </div>
     </>
   );
