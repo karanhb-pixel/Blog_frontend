@@ -1,17 +1,16 @@
 .navbar {
   display: flex;
-  margin: 0;
   background-color: #fff;
+  justify-content: space-between;
   color: #333;
   align-items: center;
-  margin: 0px 50px;
+  padding: 1rem 2rem;
 }
 .navbar-logo {
   font-size: 30px;
   font-weight: 500;
   margin-left: 20px;
   text-decoration: none;
-  flex-grow: 1;
 }
 .navbar-logo_text {
   text-decoration: none;
@@ -20,22 +19,17 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 10px 20px;
   flex-direction: row;
-
-  list-style: none;
-  margin: 0;
-  flex-grow: 2;
+  gap: 2rem;
 }
 
 .navbar-item {
-  margin: 0 15px;
+  list-style: none;
   cursor: pointer;
 }
 
 .navbar-item a {
   text-decoration: none;
-
   font-size: 20px;
 }
 .contactUs_btn {
@@ -47,4 +41,10 @@
 }
 link {
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
 }

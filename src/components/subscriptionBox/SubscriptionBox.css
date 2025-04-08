@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
   background-color: var(--primary-color);
   padding: 2rem 5rem;
   color: white;
@@ -14,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 80%;
   height: calc(100% - 4rem);
   margin-top: 3rem;
   gap: 2rem;
@@ -49,4 +48,37 @@
 .sub_Container p {
   width: 70%;
   line-height: 1.5;
+}
+
+@media (max-width: 1200px) {
+  .subscriptionBox {
+    padding: 2rem;
+  }
+  .sub_Container {
+    width: 80%;
+  }
+  .sub_Container h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .subscriptionBox {
+    padding: 1rem;
+  }
+
+  .sub_Container {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .sub_Container h1 {
+    font-size: 2rem;
+  }
+
+  .sub_inputform input {
+    padding: 0.5rem;
+  }
+  .sub_inputform button {
+    padding: 8.5px 20.5px;
+  }
 }

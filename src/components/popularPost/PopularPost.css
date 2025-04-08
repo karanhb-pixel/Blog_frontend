@@ -1,9 +1,6 @@
 .popularPost {
   background-color: white;
-  min-height: 100vh;
   padding: 2rem 5rem;
-  /* overflow-y: auto; */
-  /* overflow-x: hidden; */
 }
 .popularPost_heading {
   display: flex;
@@ -33,4 +30,30 @@
 
 .popularPost_postContainer .postContainer_container {
   flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+  .popularPost {
+    padding: 2rem;
+  }
+
+  .popularPost_heading h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .popularPost {
+    padding: 1rem;
+  }
+  .popularPost_heading h1 {
+    font-size: 1.5rem;
+  }
+  .popularPost_heading button {
+    padding: 8.5px 20.5px;
+  }
+
+  .popularPost_postContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
