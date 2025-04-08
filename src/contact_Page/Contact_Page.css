@@ -1,0 +1,130 @@
+.contact_Page {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  position: relative;
+}
+.contact_Page_headingtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.contact_Page_headingtext h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.contact_Page_headingtext h4 {
+  font-weight: 400;
+}
+.contact_Page_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 3rem 0;
+}
+.contact_Page_info_Container {
+  background-color: white; /* Or the background color from your image */
+  border-radius: 10px; /* Rounded corners like in the image */
+  padding: 1em;
+  width: fit-content; /* Adjust width as needed */
+  text-align: center; /* Center the text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  box-shadow: 0.789583px 0.263194px 11.3174px rgba(123, 78, 228, 0.2);
+}
+.icon {
+  background-color: #7c4ee4;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.office-text {
+  font-size: 1.5em; /* Adjust as needed */
+  font-weight: bold;
+  color: #7c4ee4; /* Or any color you prefer */
+}
+
+.address-text {
+  font-size: 1em; /* Adjust as needed */
+  color: #333; /* Or any color you prefer */
+}
+
+.contact_Page_map {
+  width: 100%;
+  position: relative;
+  margin-bottom: 20rem;
+}
+
+.contact_Page_map .mapimg {
+  width: 100%;
+  height: 750px;
+}
+
+.contact_Page_formcontainer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  /* width: 50%; */
+  background-color: #fff; /* Background color */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.contact_Page_form {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1rem;
+}
+.contact_Page_formgroup {
+  height: auto;
+}
+.contact_Page_form .formtextarea {
+  grid-column: span 2;
+}
+.contact_Page_formgroup input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing */
+  height: 100px;
+}
+
+.form_submit_btn button {
+  background-color: #7c4ee4; /* Purple color */
+  color: #fff;
+  border: none;
+}
+
+.contact_Page_form .form_submit_btn {
+  grid-column: span 2;
+  align-content: center;
+  justify-self: center;
+}

@@ -20,7 +20,9 @@ const Navbar = () => {
           <a href="/contact">Search</a>
         </li>
         <li className="navbar-item">
-          <button className="contactUs_btn">Contact Us</button>
+          <button className="contactUs_btn">
+            <Link to="/contact_page">Contact Us</Link>
+          </button>
         </li>
       </ul>
     </nav>

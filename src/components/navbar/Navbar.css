@@ -42,3 +42,9 @@
   background-color: var(--primary-color);
   color: #fff;
 }
+.contactUs_btn a {
+  color: #fff;
+}
+link {
+  text-decoration: none;
+}
