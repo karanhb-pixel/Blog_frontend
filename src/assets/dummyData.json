@@ -1,44 +1,65 @@
 [
   {
     "imgurl": "https://images.unsplash.com/photo-1682685797432-c55553e56c1d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "date": "2024-04-01",
-    "title": "The Impact of Climate Change on Coastal Cities",
-    "details": "This article examines the growing threat of rising sea levels and extreme weather events on coastal populations and infrastructure.",
+    "date": "2024-04-15",
+    "title": "The Evolution of Artificial Intelligence",
+    "details": "A comprehensive look at the history, current state, and future trends of AI technology.",
     "url": "#"
   },
   {
     "imgurl": "https://images.unsplash.com/photo-1682654593570-c79951149192?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "date": "2024-04-05",
-    "title": "5 Essential Skills for the Modern Data Scientist",
-    "details": "Explore the key technical and soft skills that are crucial for success in the field of data science today.",
+    "date": "2024-04-20",
+    "title": "Understanding Blockchain Technology",
+    "details": "An explanation of how blockchain works and its potential applications beyond cryptocurrency.",
     "url": "#"
   },
   {
     "imgurl": "https://images.unsplash.com/photo-1682558666946-a06f44eb1136?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "date": "2024-04-10",
-    "title": "A Beginner's Guide to Digital Photography",
-    "details": "Learn the fundamentals of photography, including camera settings, composition techniques, and basic editing.",
+    "date": "2024-04-25",
+    "title": "The Benefits of Mindfulness in Daily Life",
+    "details": "Explore how practicing mindfulness can reduce stress, improve focus, and enhance overall well-being.",
     "url": "#"
   },
   {
     "imgurl": "https://images.unsplash.com/photo-1682454228684-2a2990527b18?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "date": "2024-04-12",
-    "title": "The Art of Mindful Meditation",
-    "details": "Discover the benefits of mindfulness and learn how to incorporate meditation into your daily routine for stress reduction and improved focus.",
+    "date": "2024-04-28",
+    "title": "Investing for Beginners: A Step-by-Step Guide",
+    "details": "Learn the basics of investing, including different investment options and strategies for building wealth.",
     "url": "#"
   },
   {
     "imgurl": "https://images.unsplash.com/photo-1682313674140-56cffc578f8a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "date": "2024-04-18",
-    "title": "Top 10 Destinations for Solo Travelers",
-    "details": "Find inspiration for your next adventure with our list of the best and safest places to travel alone.",
+    "date": "2024-05-02",
+    "title": "The Best Hiking Trails in the Pacific Northwest",
+    "details": "Discover scenic hiking routes with breathtaking views in the beautiful Pacific Northwest region.",
     "url": "#"
   },
   {
     "imgurl": "https://images.unsplash.com/photo-1681728953023-a0524a0d6a56?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "date": "2024-04-22",
-    "title": "The Complete Guide to Home Brewing",
-    "details": "Learn the step-by-step process of brewing your own beer at home, from choosing your ingredients to bottling the final product.",
+    "date": "2024-05-05",
+    "title": "A Guide to Growing Your Own Organic Garden",
+    "details": "Learn the essentials of organic gardening, from soil preparation to pest control, and enjoy fresh produce from your backyard.",
+    "url": "#"
+  },
+  {
+    "imgurl": "https://images.unsplash.com/photo-1681788256828-52a567600570?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "date": "2024-05-10",
+    "title": "The Art of Public Speaking",
+    "details": "Improve your communication skills and learn techniques for delivering effective and engaging presentations.",
+    "url": "#"
+  },
+  {
+    "imgurl": "https://images.unsplash.com/photo-1681418224537-652b8b323c70?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "date": "2024-05-12",
+    "title": "Exploring the Wonders of the Night Sky",
+    "details": "A beginner's guide to astronomy, covering constellations, planets, and other celestial objects.",
+    "url": "#"
+  },
+  {
+    "imgurl": "https://images.unsplash.com/photo-1680986445657-eb0fa97ba5f0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "date": "2024-05-18",
+    "title": "The Ultimate Guide to Productivity Hacks",
+    "details": "Discover tips and tricks to optimize your workflow, manage your time effectively, and boost your productivity.",
     "url": "#"
   }
 ]

@@ -1,7 +1,7 @@
 import React from "react";
 import "./popularPost.css";
-import PostContainer from "../components/postContainer/postContainer";
-import DummyData from "../assets/dummyData.json";
+import PostContainer from "../postContainer/PostContainer";
+import DummyData from "../../assets/dummyData.json";
 const PopularPost = () => {
   return (
     <div className="popularPost">
@@ -10,7 +10,7 @@ const PopularPost = () => {
         <button>View All</button>
       </div>
       <div className="popularPost_postContainer">
-        {DummyData.map((post, index) => (
+        {DummyData.slice(0, 6).map((post, index) => (
           <PostContainer
             key={index}
             imgurl={post.imgurl}

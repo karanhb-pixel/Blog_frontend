@@ -1,6 +1,6 @@
 import React from "react";
 import "./RecentPosts.css";
-import PostContainer from "../components/postContainer/postContainer";
+import PostContainer from "../postContainer/PostContainer";
 
 const RecentPosts = () => {
   return (
