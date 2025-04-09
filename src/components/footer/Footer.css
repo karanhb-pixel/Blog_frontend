@@ -99,3 +99,9 @@
     margin: 1rem 0;
   }
 }
+
+@media (max-width: 580px) {
+}
+
+@media (max-width: 380px) {
+}

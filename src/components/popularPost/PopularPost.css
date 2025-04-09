@@ -57,3 +57,21 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media (max-width: 580px) {
+  .popularPost_postContainer {
+    margin-top: 1rem;
+  }
+  .popularPost_heading h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .popularPost_heading h1 {
+    font-size: 1rem;
+  }
+  .popularPost_heading button {
+    padding: 4px 8px;
+  }
+}

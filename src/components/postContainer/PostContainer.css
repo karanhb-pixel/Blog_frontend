@@ -63,3 +63,35 @@
     text-align: left;
   }
 }
+
+@media (max-width: 580px) {
+  .postContainer_container {
+    gap: 1rem;
+  }
+  .postContainer_details {
+    gap: 1rem;
+  }
+  .postContainer_details_text {
+    gap: 1rem;
+  }
+}
+@media (max-width: 380px) {
+  .postContainer_container {
+    gap: 0.5rem;
+  }
+  .postContainer_details {
+    gap: 0.5rem;
+  }
+  .postContainer_details_text {
+    gap: 0.5rem;
+  }
+  .postContainer_details_text h1 {
+    font-size: 1rem;
+  }
+  .postContainer_details_text p {
+    font-size: small;
+  }
+  .postContainer_details_btn button {
+    padding: 4px 8px;
+  }
+}

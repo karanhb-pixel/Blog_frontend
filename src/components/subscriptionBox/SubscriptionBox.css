@@ -82,3 +82,35 @@
     padding: 8.5px 20.5px;
   }
 }
+
+@media (max-width: 580px) {
+  .sub_Container h1 {
+    font-size: 1.5rem;
+  }
+  .sub_Container {
+    width: 80%;
+    gap: 1.5rem;
+  }
+  .sub_Container p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .sub_Container {
+    width: 100%;
+    gap: 1rem;
+  }
+  .sub_Container h1 {
+    font-size: 1rem;
+  }
+  .sub_Container p {
+    font-size: small;
+  }
+  .sub_inputform input {
+    padding: 0.2rem;
+  }
+  .sub_inputform button {
+    padding: 4px 8px;
+  }
+}

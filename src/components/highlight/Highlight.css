@@ -99,3 +99,12 @@
     text-overflow: ellipsis;
   }
 }
+
+@media (max-width: 580px) {
+  .highlight {
+    padding: 1rem 0.5rem;
+  }
+  .highlight_img {
+    width: 80%;
+  }
+}

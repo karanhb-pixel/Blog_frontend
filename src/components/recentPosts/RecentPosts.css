@@ -50,7 +50,9 @@
   height: auto;
   max-height: 50vh;
 }
-
+.recentPosts_postContainer .small-screen {
+  display: none;
+}
 @media (max-width: 1200px) {
   .recentPosts {
     padding: 2rem;
@@ -83,5 +85,43 @@
   }
   .recentPosts_heading button {
     padding: 8.5px 20.5px;
+  }
+}
+
+@media (max-width: 580px) {
+  .recentPosts_heading h1 {
+    font-size: 1.5rem;
+  }
+  .postContainer_container {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .recentPosts {
+    padding: 1rem 0.5rem;
+  }
+  .recentPosts_heading h1 {
+    font-size: 1rem;
+  }
+  .recentPosts_heading button {
+    padding: 4px 8px;
+  }
+  .recentPosts_postContainer {
+    margin-top: 0.5rem;
+    gap: 1rem;
+  }
+  .recentPosts_post:first-child .postContainer_container img {
+    max-width: 20vh;
+  }
+
+  .recentPosts_postContainer .large-screen {
+    display: none;
+  }
+  .recentPosts_postContainer .small-screen {
+    display: grid;
+  }
+  .recentPosts_post:nth-child(n + 2) {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

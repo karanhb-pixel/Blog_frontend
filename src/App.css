@@ -24,7 +24,6 @@ button {
 
 button:hover {
   transform: scale(1.02);
-  /* transition: all 0.1s ease-in-out; */
 }
 
 a {
@@ -36,5 +35,17 @@ a {
   flex-direction: column;
   gap: 2rem;
   padding: 2rem;
-  /* min-height: 100vh; */
+}
+
+@media (max-width: 580px) {
+  .mainContainer {
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .mainContainer {
+    padding: 0;
+  }
 }

@@ -128,3 +128,28 @@ textarea {
   align-content: center;
   justify-self: center;
 }
+
+@media (max-width: 1200px) {
+  .contact_Page {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact_Page {
+    padding-top: 0;
+  }
+  .contact_Page_headingtext h1 {
+    font-size: 50px;
+  }
+  .contact_Page_info {
+    margin: 1.5rem 0;
+  }
+
+  .contact_Page_map {
+    margin-bottom: 10rem;
+  }
+  .contact_Page_map .mapimg {
+    height: 500px;
+  }
+}
