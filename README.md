@@ -1,12 +1,50 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ZenBlog
 
-Currently, two official plugins are available:
+>A modern, responsive blog platform built with React and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Modern UI with responsive design
+- Code splitting for optimized performance
+- Accessibility best practices (alt text, form labels, ARIA attributes)
+- SEO meta tags and Open Graph/Twitter Card support
+- 404 Not Found page for unknown routes
+- Clean, maintainable codebase with ESLint
 
-## Expanding the ESLint configuration
+## Technologies Used
+- [React 19](https://react.dev/)
+- [Vite](https://vitejs.dev/) (build tool)
+- [React Router v7](https://reactrouter.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [ESLint](https://eslint.org/) (with React and hooks plugins)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Optimization & Best Practices
+- **Code Splitting:** Uses `React.lazy` and `Suspense` for route-based code splitting.
+- **Image Optimization:** Uses modern formats and fallback images.
+- **Accessibility:** All images have descriptive alt text; forms use proper labels and ARIA attributes.
+- **SEO:** Static meta tags for description, Open Graph, and Twitter Card in `index.html`.
+- **404 Handling:** Custom NotFound component for unmatched routes.
+- **Consistent Naming:** All components use PascalCase; typos and inconsistencies fixed.
+- **Dead Code Removal:** Unused files and commented code removed.
+- **Dependency Management:** Regular updates and tree-shaking for smaller bundles.
+
+## Getting Started
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev` to start the development server
+
+## Folder Structure
+```
+src/
+	components/
+	blog_Page/
+	blog_Start/
+	contact_Page/
+	assets/
+	App.jsx
+	main.jsx
+	...
+```
+
+## License
+MIT
