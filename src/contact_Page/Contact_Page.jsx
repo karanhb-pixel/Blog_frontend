@@ -4,7 +4,7 @@ import { RiHomeOfficeLine } from "react-icons/ri";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 const Contact_Page = () => {
   return (
-    <div className="contact_Page">
+    <div className="contact_Page" id="contact_Page">
       <div className="contact_Page_headingtext">
         <h1>Get in Touch</h1>
         <h4>
@@ -37,10 +37,10 @@ const Contact_Page = () => {
         </div>
       </div>
       <div className="contact_Page_map">
-        <img src="/assets/map.jpg" alt="map.jpg" className="mapimg" />
+  <img src="/assets/map.jpg" alt="Map showing office location in London, UK" className="mapimg" />
       </div>
       <div className="contact_Page_formcontainer">
-        <form action="submit" method="post" className="contact_Page_form">
+        <form action="#" method="post" className="contact_Page_form" aria-label="Contact form">
           <div className="contact_Page_formgroup">
             <label htmlFor="name">Name</label>
             <input
@@ -49,6 +49,9 @@ const Contact_Page = () => {
               name="name"
               placeholder="Enter Name..."
               required
+              aria-required="true"
+              aria-label="Name"
+              autoComplete="name"
             />
           </div>
           <div className="contact_Page_formgroup">
@@ -59,6 +62,9 @@ const Contact_Page = () => {
               name="email"
               placeholder="Enter Email..."
               required
+              aria-required="true"
+              aria-label="Email"
+              autoComplete="email"
             />
           </div>
           <div className="contact_Page_formgroup">
@@ -69,6 +75,9 @@ const Contact_Page = () => {
               name="phone"
               placeholder="Enter Phone Number..."
               required
+              aria-required="true"
+              aria-label="Phone"
+              autoComplete="tel"
             />
           </div>
           <div className="contact_Page_formgroup">
@@ -79,6 +88,8 @@ const Contact_Page = () => {
               name="subject"
               placeholder="Enter subject..."
               required
+              aria-required="true"
+              aria-label="Subject"
             />
           </div>
           <div className="contact_Page_formgroup formtextarea">
@@ -90,10 +101,12 @@ const Contact_Page = () => {
               rows="4"
               cols={4}
               required
+              aria-required="true"
+              aria-label="Message"
             />
           </div>
           <div className="form_submit_btn">
-            <button type="submit">Send Message</button>
+            <button type="submit" aria-label="Send Message">Send Message</button>
           </div>
         </form>
       </div>

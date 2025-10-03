@@ -3,7 +3,7 @@ import "./SubscriptionBox.css";
 
 const SubscriptionBox = () => {
   return (
-    <div className="subscriptionBox">
+  <div className="subscriptionBox" id="subscriptionBox">
       <div className="sub_Container">
         <h1>Get our stories delivered From us to your inbox weekly.</h1>
         <div className="sub_inputform">

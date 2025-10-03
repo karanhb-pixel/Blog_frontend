@@ -15,7 +15,7 @@ const Blog_Home = () => {
         <button>Read more</button>
       </div>
       <div className="blog_headerimg">
-        <img src="/assets/Ai_img.png" alt="AI image" />
+        <img src="/assets/Ai_img.png" alt="Illustration of Artificial Intelligence" />
       </div>
     </div>
   );

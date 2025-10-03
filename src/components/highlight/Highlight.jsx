@@ -4,7 +4,7 @@ const Highlight = () => {
   return (
     <div className="highlight">
       <div className="highlight_container">
-        <img className="highlight_img" src="/assets/Highlight_img.jpg" alt="" />
+  <img className="highlight_img" src="/assets/Highlight_img.webp" alt="VR and AI Technology Highlight" />
 
         <div className="highlight_details">
           <div className="highlight_details_text">
@@ -15,7 +15,7 @@ const Highlight = () => {
               How to make a Game look more attractive with New VR & AI
               Technology
             </h1>
-            <p>
+            <p className="highlight_details_paratext">
               Google has been investing in AI for many years and bringing its
               benefits to individuals, businesses and communities. Whether it’s
               publishing state-of-the-art research, building helpful products or

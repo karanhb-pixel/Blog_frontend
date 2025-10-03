@@ -15,7 +15,8 @@
 .popularPost_heading button {
   background-color: var(--primary-color);
   color: white;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
 }
 .popularPost_postContainer {
   display: grid;

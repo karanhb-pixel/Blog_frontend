@@ -23,11 +23,9 @@ const Navbar = () => {
           <Link to="/blog">Blog</Link>
         </li>
         <li className="navbar-item">
-          <a href="/about">About</a>
+          <a href="#subscriptionBox">About</a>
         </li>
-        <li className="navbar-item">
-          <a href="/contact">Search</a>
-        </li>
+        
         <li className="navbar-item">
           <button className="contactUs_btn">
             <Link to="/contact_page">Contact Us</Link>

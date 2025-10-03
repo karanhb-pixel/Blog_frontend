@@ -31,17 +31,16 @@
   margin: 3rem 0;
 }
 .contact_Page_info_Container {
-  background-color: white; /* Or the background color from your image */
-  border-radius: 10px; /* Rounded corners like in the image */
+  background-color: white;
+  border-radius: 10px;
   padding: 1em;
-  width: fit-content; /* Adjust width as needed */
-  text-align: center; /* Center the text */
+  width: fit-content;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-
   box-shadow: 0.789583px 0.263194px 11.3174px rgba(123, 78, 228, 0.2);
 }
 .icon {
@@ -85,7 +84,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  /* width: 50%; */
+  
   background-color: #fff; /* Background color */
   border-radius: 5px; /* Rounded corners */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */

@@ -5,6 +5,16 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+
+  background-color: #0053ff59;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: all 0.3s ease-in-out;
+}
+.postContainer_container:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+  transform: scale(1.02);
 }
 
 .postContainer_container img {
@@ -13,6 +23,10 @@
   max-height: 250px;
   object-fit: cover;
   border-radius: 1rem;
+}
+
+.postContainer_container img:hover {
+  transform: scale(1.02);
 }
 
 .postContainer_details {
@@ -57,6 +71,7 @@
     font-size: small;
     display: -webkit-box;
     -webkit-line-clamp: 3;
+    line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;

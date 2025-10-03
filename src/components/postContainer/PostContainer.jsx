@@ -2,9 +2,8 @@ import React from "react";
 import "./postContainer.css";
 import Ai_img from "/assets/Ai_img.png";
 
-const postContainer = ({ imgurl, date, heading, description, url }) => {
+const PostContainer = ({ imgurl, date, heading, description, url }) => {
   return (
-    // <div className="postContainer">
     <div className="postContainer_container">
       <img
         src={imgurl || Ai_img}
@@ -37,8 +36,7 @@ const postContainer = ({ imgurl, date, heading, description, url }) => {
         </div>
       </div>
     </div>
-    // </div>
   );
 };
 
-export default postContainer;
+export default PostContainer;
